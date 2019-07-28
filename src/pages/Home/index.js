@@ -1,15 +1,11 @@
-import React, { Component } from 'react';
-import Card from "../../components/Card";
+import React from "react";
 
-
-export default class Home extends Component {
+class Home extends React.Component {
     render() {
         return (
-            <div>
-                <p>this is the home page</p>
-
-            </div>
-
-        )
+            null
+        );
     }
 }
+
+export default Home;

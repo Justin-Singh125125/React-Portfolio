@@ -1,0 +1,18 @@
+//abstract css that we want to load first
+@import "./abstracts/variables.scss";
+@import "./abstracts/mixins.scss";
+@import "./abstracts/functions.scss";
+
+
+//base
+//next level css that we want to load after abstract
+//this allows us to use css variables inside imported files below
+@import "./base/base.scss";
+@import "./base/utilities.scss";
+@import "./base/animations.scss";
+@import "./base/typography.scss";
+
+
+//pages
+@import "./pages/home.scss";
+
