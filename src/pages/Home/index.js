@@ -12,6 +12,7 @@ import SectionContact from "../../layouts/Contact";
 
 //components
 import Hello from "../../components/Hello";
+import Hero from "../../components/HeroImage";
 
 
 
@@ -28,6 +29,7 @@ class Home extends React.Component {
             <Grid>
                 <SectionIntroduction>
                     <Hello />
+                    <Hero />
                 </SectionIntroduction>
                 <SectionAboutMe>
                     About Me
