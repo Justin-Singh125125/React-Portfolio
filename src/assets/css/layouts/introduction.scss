@@ -1,6 +1,11 @@
 .section-introduction{
-    background-color: orangered;
+    // background-color: orangered;
 
     grid-column: center-start / center-end;
     grid-row: 1 / 2;
+
+    display: grid;
+
+    grid-template-rows: .3fr min-content .3fr;
+    grid-template-columns: repeat(2, 1fr);
 }

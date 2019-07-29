@@ -11,6 +11,7 @@ import SectionPortfolio from "../../layouts/Portfolio";
 import SectionContact from "../../layouts/Contact";
 
 //components
+import Hello from "../../components/Hello";
 
 
 
@@ -26,7 +27,7 @@ class Home extends React.Component {
         return (
             <Grid>
                 <SectionIntroduction>
-                    Intro
+                    <Hello />
                 </SectionIntroduction>
                 <SectionAboutMe>
                     About Me

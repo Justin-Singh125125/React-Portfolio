@@ -1,0 +1,42 @@
+.hello{
+    grid-row: 2 / 3;
+    grid-column:  1 / 2;
+    padding: 10rem;
+    letter-spacing: .1rem;
+
+    &__im{
+        display: inline-block;
+        background-color:$color-secondary ;
+        font-size: 2rem;
+        padding: 1rem 2rem;
+        border-top-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        color: white;
+        font-weight: 300;
+    }
+
+    &__name{
+        font-size: 5rem;
+        
+    }   
+
+    &__stack{
+        font-size: 2rem;
+    }
+
+    &__email{
+        font-size: 1rem;
+
+        margin-top: 1rem;
+    }
+
+    &__number{
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+
+    &__icons{
+
+    }
+}
