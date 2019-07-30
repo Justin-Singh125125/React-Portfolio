@@ -14,6 +14,7 @@ import SectionContact from "../../layouts/Contact";
 import Hello from "../../components/Hello";
 import Hero from "../../components/HeroImage";
 import Navigation from "../../components/Navigation";
+import AboutMeImage from "../../components/AboutMeImage";
 
 
 
@@ -34,7 +35,7 @@ class Home extends React.Component {
                     <Hero />
                 </SectionIntroduction>
                 <SectionAboutMe>
-                    About Me
+                    <AboutMeImage />
                 </SectionAboutMe>
                 <SectionWhatIDo>
                     What I do

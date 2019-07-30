@@ -1,5 +1,13 @@
 .section-about-me{
-    background-color: blue;
+    
     grid-column: center-start / center-end;
     grid-row: 2 / 3;
+
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, min-content);
+
+
+    height: 100rem;
 }

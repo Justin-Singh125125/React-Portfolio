@@ -13,7 +13,7 @@ const Navigation = props => {
 
             <nav className="navigation__nav">
                 <ul className="navigation__list">
-                    <li className="navigation__item"><a href="#" className="navigation__link">About Me</a></li>
+                    <li className="navigation__item"><a href="#about-me" className="navigation__link">About Me</a></li>
                     <li className="navigation__item"><a href="#" className="navigation__link">What I Do</a></li>
                     <li className="navigation__item"><a href="#" className="navigation__link">skills</a></li>
                     <li className="navigation__item"><a href="#" className="navigation__link">my experience</a></li>
