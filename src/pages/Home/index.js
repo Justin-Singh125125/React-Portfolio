@@ -13,6 +13,7 @@ import SectionContact from "../../layouts/Contact";
 //components
 import Hello from "../../components/Hello";
 import Hero from "../../components/HeroImage";
+import Navigation from "../../components/Navigation";
 
 
 
@@ -27,6 +28,7 @@ class Home extends React.Component {
 
         return (
             <Grid>
+                <Navigation />
                 <SectionIntroduction>
                     <Hello />
                     <Hero />
