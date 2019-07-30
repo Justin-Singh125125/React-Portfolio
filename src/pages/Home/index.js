@@ -15,6 +15,7 @@ import Hello from "../../components/Hello";
 import Hero from "../../components/HeroImage";
 import Navigation from "../../components/Navigation";
 import AboutMeImage from "../../components/AboutMeImage";
+import AboutMe from "../../components/AboutMe";
 
 
 
@@ -36,6 +37,7 @@ class Home extends React.Component {
                 </SectionIntroduction>
                 <SectionAboutMe>
                     <AboutMeImage />
+                    <AboutMe />
                 </SectionAboutMe>
                 <SectionWhatIDo>
                     What I do

@@ -1,0 +1,17 @@
+.about-me{
+    grid-column: 2 / 3;
+    justify-self: center;
+    padding: 0 6rem;
+
+    &__text{
+        font-size: 4rem;
+        font-weight: 400;
+        letter-spacing: .2rem;
+    }
+
+    &__info{
+        font-size:2rem;
+        opacity: .8;
+        font-weight: 300;
+    }
+}
