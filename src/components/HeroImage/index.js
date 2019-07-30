@@ -8,8 +8,11 @@ const HeroImage = props => {
         <>
             <div className="hero">
                 <img src={Hero} alt="Justin Singh" className="hero__img" />
+
             </div>
-            <div className="hero__border">&nbsp;</div>
+            <div className="hero__border--1">&nbsp;</div>
+            <div className="hero__border--2">&nbsp;</div>
+
         </>
 
     )

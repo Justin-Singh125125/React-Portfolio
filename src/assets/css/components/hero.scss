@@ -10,25 +10,49 @@
     border-radius: 50%;
     overflow: hidden;
    
-    border: 2rem solid rgba(black, .06);
     position: relative;
+
+    // box-shadow: 0 2rem 4rem rgba(black, .2);
+
 
 
     &__img{
         margin-left: -21em;
         margin-top: -8rem;
-
+        
     }
 
-    &__border{
-        position: absolute;
-        top: 0;
-        left: 0;
-        transform: translate(-50%, -50%);
-        background-color: red;
-        width: 40rem;
-        height: 40rem;
+    &__border--1{
+        grid-row: 2 / 3;
+        grid-column:  2 / 3;
+    
+        justify-self: center;
+        align-self: center;
+
         border-radius: 50%;
+        width: 34rem;
+        height: 34rem;
+
+        background-color:rgba(0, 0, 0, 0.08);
+        position: relative;
+        z-index: -1;
+
+    }
+    &__border--2{
+        grid-row: 2 / 3;
+        grid-column:  2 / 3;
+    
+        justify-self: center;
+        align-self: center;
+
+        border-radius: 50%;
+        width: 38rem;
+        height: 38rem;
+
+ 
+        position: relative;
+        z-index: -2;
+        background-color:rgba(0, 0, 0, 0.05);
 
     }
 }
