@@ -17,7 +17,82 @@
     &__technologies{
         font-size: 2rem;
         display: flex;
+        margin-top: 3rem;
+         
+        
+        p {
+            &:not(:last-child){
+                margin-right: 3rem;
+            }
+
+            border: 1px solid $color-primary;
+            padding: .5rem;
+            border-radius: .5rem;
+            font-size: 1.5rem;
+            transition: all .4s;
+            font-weight: 300;
+            letter-spacing: .1rem;
+            cursor: pointer;
+
+            &:hover{
+                background-color: $color-primary;
+                color: white;
+
+                animation: pulsate 1s infinite;
+            }
+
+    
+
+    
+        }
+
+    
+
+    }
+
+    &__btn:visited,
+    &__btn:link{
+        color: white;
+        background-color: $color-primary;
+        padding: 1rem 6rem;
+        border-radius: .5rem;
+        font-size: 2rem;
+        text-decoration: none;
+        margin-top: 3rem;
+        display: inline-block;
+        transition: all .3s;
+        box-shadow: 0 2rem 4rem rgba(black, .1);
+        font-weight: 400;
+        letter-spacing: .02rem;
 
 
+
+        &:hover{
+            transform: translateY(-.3rem);
+            box-shadow: 0 2rem 4rem rgba(black, .2);
+        }
+
+        &:active{
+            transform: translateY(.1rem);
+            box-shadow: 0 2rem 4rem rgba(black, .1);
+        }
+    }
+}
+
+@keyframes pulsate{
+
+    0%{
+        transform: scale(1);
+        box-shadow: none;
+    }
+
+    50%{
+        transform: scale(1.05);
+        box-shadow: 0 1rem 4rem rgba(black,.25);
+    }
+
+    100%{
+        transform: scale(1);
+        box-shadow: none;
     }
 }

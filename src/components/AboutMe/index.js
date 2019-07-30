@@ -2,6 +2,9 @@ import React from "react";
 
 //sub-components
 import Technologies from "./sub-components/technologies";
+
+//Resume
+import Resume from "../../assets/img/Singh, Justin.pdf";
 const AboutMe = props => {
     return (
         <div className="about-me">
@@ -12,6 +15,11 @@ const AboutMe = props => {
             </p>
 
             <Technologies />
+
+
+            <a className="about-me__btn" href={Resume} download>
+                Download Resume
+            </a>
         </div>
     )
 }
