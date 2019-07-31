@@ -4,14 +4,17 @@
     padding: 0 6rem;
 
     &__text{
-        font-size: 4rem;
-        font-weight: 600;
+        font-size: 3.5rem;
+        font-weight: 300;
         letter-spacing: .2rem;
+
     }
 
     &__info{
         font-size:2rem;
         font-weight: 300;
+        font-family: $font-secondary;
+
     }
 
     &__technologies{
@@ -80,20 +83,3 @@
     }
 }
 
-@keyframes pulsate{
-
-    0%{
-        transform: scale(1);
-        box-shadow: none;
-    }
-
-    50%{
-        transform: scale(1.05);
-        box-shadow: 0 1rem 4rem rgba(black,.25);
-    }
-
-    100%{
-        transform: scale(1);
-        box-shadow: none;
-    }
-}

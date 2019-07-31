@@ -16,6 +16,7 @@ import Hero from "../../components/HeroImage";
 import Navigation from "../../components/Navigation";
 import AboutMeImage from "../../components/AboutMeImage";
 import AboutMe from "../../components/AboutMe";
+import WhatIDoCard from "../../components/What-I-Do-Card";
 
 
 
@@ -40,7 +41,9 @@ class Home extends React.Component {
                     <AboutMe />
                 </SectionAboutMe>
                 <SectionWhatIDo>
-                    What I do
+                    <WhatIDoCard headingText="UI Design" />
+                    <WhatIDoCard headingText="Web Development" />
+                    <WhatIDoCard headingText="Database Management" />
                 </SectionWhatIDo>
                 <SectionSkills>
                     my Skills

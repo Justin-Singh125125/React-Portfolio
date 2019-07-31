@@ -1,0 +1,23 @@
+.what-i-do-card{
+    margin-top: 4rem;
+    padding: 2rem;
+    box-shadow: 0 1rem 2rem .4rem #00000015;
+
+    &__heading{
+        margin-bottom: 1.5rem;
+        font-weight: 300;
+        letter-spacing: .2rem;
+    }
+
+
+    &__text{
+        line-height: 1.8;
+        font-weight: 400;
+        font-family: $font-secondary;
+        font-size: 1.2rem;
+        opacity: .7;
+
+
+    }
+
+}
