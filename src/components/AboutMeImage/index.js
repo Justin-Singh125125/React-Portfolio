@@ -1,6 +1,6 @@
 import React from "react";
 
-import AboutMePhoto from "../../assets/img/about-me.jpg";
+import AboutMePhoto from "../../assets/img/about-me-picture.png";
 
 
 
