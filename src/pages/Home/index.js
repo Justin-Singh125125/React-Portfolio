@@ -17,6 +17,7 @@ import Navigation from "../../components/Navigation";
 import AboutMeImage from "../../components/AboutMeImage";
 import AboutMe from "../../components/AboutMe";
 import WhatIDoCard from "../../components/What-I-Do-Card";
+import ProgressBar from "../../components/ProgressBar";
 
 
 
@@ -46,7 +47,11 @@ class Home extends React.Component {
                     <WhatIDoCard headingText="Database Management" svgClass="what-i-do-card__icon what-i-do-card__icon--3" svgSelection="icon-database" />
                 </SectionWhatIDo>
                 <SectionSkills>
-                    my Skills
+                    <ProgressBar progressBarClass="progress-bar__rod progress-bar__rod--1" headingText="HTML" percentage="80%" />
+                    <ProgressBar progressBarClass="progress-bar__rod progress-bar__rod--2" headingText="CSS" percentage="70%" />
+                    <ProgressBar progressBarClass="progress-bar__rod progress-bar__rod--3" headingText="Javascript" percentage="90%" />
+                    <ProgressBar progressBarClass="progress-bar__rod progress-bar__rod--4" headingText="Express" percentage="90%" />
+                    <ProgressBar progressBarClass="progress-bar__rod progress-bar__rod--5" headingText="React" percentage="85%" />
                 </SectionSkills>
                 <SectionExperience>
                     my experience

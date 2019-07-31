@@ -1,0 +1,69 @@
+.progress-bar{
+    padding: 2rem;
+
+    &__text{
+        display: flex;
+        font-size: 1.2rem;
+        margin-bottom: .5rem;
+    }
+    &__heading{
+        margin-right: auto;
+        font-weight: 400;
+        letter-spacing: .02rem;
+
+    }
+
+    &__percentage{
+        font-weight: 300;
+        font-size: 1.3rem;
+    }   
+   
+
+    &__rod{
+        width: 100%;
+        border-radius: 6rem;
+        background-color:rgba(0, 0, 0, 0.5);;
+        height: 1rem;
+        z-index: 1;   
+        position: relative;
+
+        &::before{
+            content: "";
+            display: inline-block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 1rem;
+            background-color: $color-primary;
+            border-radius: 6rem;
+        }
+
+        &--1{
+            &::before{
+                width: 80%;
+            }
+        }
+        &--2{
+            &::before{
+                width: 70%;
+            }
+        }
+        &--3{
+            &::before{
+                width: 90%;
+            }
+        }
+        &--4{
+            &::before{
+                width: 90%;
+            }
+        }
+        &--5{
+            &::before{
+                width: 85%;
+            }
+        }
+    }
+
+
+}

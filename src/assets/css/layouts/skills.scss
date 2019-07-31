@@ -1,8 +1,21 @@
 .section-skills{
-    background-color: skyblue;
 
-    grid-column: center-start / center-end;
+
+    grid-column: center-start / col-end 4;
     grid-row: 4 / 5;
 
     margin: 15rem 0;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    // grid-gap: 7rem;
+
+
+    &__technical{
+        text-align: center;
+        font-weight: 400;
+        font-size: 3rem;
+    }
+
+
 }
