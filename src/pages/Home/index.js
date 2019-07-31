@@ -10,6 +10,7 @@ import SectionExperience from "../../layouts/Experience";
 import SectionPortfolio from "../../layouts/Portfolio";
 import SectionContact from "../../layouts/Contact";
 
+
 //components
 import Hello from "../../components/Hello";
 import Hero from "../../components/HeroImage";
@@ -19,6 +20,10 @@ import AboutMe from "../../components/AboutMe";
 import WhatIDoCard from "../../components/What-I-Do-Card";
 import ProgressBar from "../../components/ProgressBar";
 
+//photos
+// import AboutMePhoto from "../../assets/img/about-me-picture.png";
+import AboutMePhoto from "../../assets/img/about-me-picture.png";
+import skillPhoto from "../../assets/img/skills.jpg";
 
 
 
@@ -38,7 +43,7 @@ class Home extends React.Component {
                     <Hero />
                 </SectionIntroduction>
                 <SectionAboutMe>
-                    <AboutMeImage />
+                    <AboutMeImage img={AboutMePhoto} />
                     <AboutMe />
                 </SectionAboutMe>
                 <SectionWhatIDo>
@@ -52,7 +57,12 @@ class Home extends React.Component {
                     <ProgressBar progressBarClass="progress-bar__rod progress-bar__rod--3" headingText="Javascript" percentage="90%" />
                     <ProgressBar progressBarClass="progress-bar__rod progress-bar__rod--4" headingText="Express" percentage="90%" />
                     <ProgressBar progressBarClass="progress-bar__rod progress-bar__rod--5" headingText="React" percentage="85%" />
+
                 </SectionSkills>
+
+
+                <AboutMeImage img={skillPhoto} />
+
                 <SectionExperience>
                     my experience
                 </SectionExperience>
