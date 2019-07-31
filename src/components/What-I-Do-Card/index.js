@@ -7,7 +7,7 @@ const WhatIDoCard = props => {
     return (
         <div className="what-i-do-card">
 
-            <SvgIcon svgClass="what-i-do-card__icon" svgSelection={props.svgSelection} />
+            <SvgIcon svgClass={props.svgClass} svgSelection={props.svgSelection} />
             <h2 className="what-i-do-card__heading">
                 {props.headingText}
             </h2>
