@@ -18,11 +18,14 @@ const AboutMe = props => {
             </p>
 
             <Technologies />
+            <div className="about-me__btn-section">
 
 
-            <a className="about-me__btn" href={Resume} download>
-                Download Resume <SvgIcon svgClass="about-me__btn-icon" svgSelection="icon-download3" />
-            </a>
+                <a id="center" className="test btn btn--green" href={Resume} download>
+                    Download Resume  <SvgIcon svgClass="about-me__btn-icon" svgSelection="icon-download3" />
+                </a>
+            </div>
+
         </div>
     )
 }
