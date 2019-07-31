@@ -1,5 +1,8 @@
 import React from "react";
 
+//components
+import SvgIcon from "../../components/SvgIcon";
+
 //sub-components
 import Technologies from "./sub-components/technologies";
 
@@ -18,7 +21,7 @@ const AboutMe = props => {
 
 
             <a className="about-me__btn" href={Resume} download>
-                Download Resume
+                Download Resume <SvgIcon svgClass="about-me__btn-icon" svgSelection="icon-download3" />
             </a>
         </div>
     )

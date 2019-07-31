@@ -41,9 +41,9 @@ class Home extends React.Component {
                     <AboutMe />
                 </SectionAboutMe>
                 <SectionWhatIDo>
-                    <WhatIDoCard headingText="UI Design" />
-                    <WhatIDoCard headingText="Web Development" />
-                    <WhatIDoCard headingText="Database Management" />
+                    <WhatIDoCard headingText="UI Design" svgSelection="icon-feed" />
+                    <WhatIDoCard headingText="Web Development" svgSelection="icon-embed2" />
+                    <WhatIDoCard headingText="Database Management" svgSelection="icon-database" />
                 </SectionWhatIDo>
                 <SectionSkills>
                     my Skills
