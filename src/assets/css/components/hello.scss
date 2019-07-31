@@ -3,6 +3,7 @@
     grid-column:  1 / 2;
     padding: 10rem;
     letter-spacing: .1rem;
+    font-family: $font-secondary;
 
     &__im{
         display: inline-block;
@@ -14,29 +15,86 @@
         border-bottom-right-radius: 2rem;
         color: white;
         font-weight: 300;
+        font-family: $font-primary;
+    
     }
 
     &__name{
         font-size: 5rem;
-        
+        margin-top: 2rem;
+      
     }   
 
     &__stack{
         font-size: 2rem;
+        margin-top: 1rem;
     }
 
     &__email{
-        font-size: 1rem;
+        font-size: 1.4rem;
+        margin-top: 4rem;
+        display: flex;
+        align-items: center;
+        font-weight: 400;
+        cursor: pointer;
+    }
 
-        margin-top: 1rem;
+    &__email-icon{
+        margin-right: 1rem;
+        fill: black;
+        transition: all .3s;
+    }
+
+    
+    &__email:hover &__email-icon{
+        fill: $color-primary;
     }
 
     &__number{
-        font-size: 1rem;
-        margin-top: 1rem;
+        font-size: 1.3rem;
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        font-weight: 400;
+    }
+
+    &__phone-icon{
+        margin-right: 1rem;
+        transition: all .3s;
+    }
+
+    &__number:hover &__phone-icon{
+        fill: $color-primary;
+    }
+
+    &__icon{
+        width: 2rem;
+        height: 2rem;
     }
 
     &__icons{
+        display: flex;
+        align-items: center;
+        margin-top: 3rem;
+        margin-left: 3rem;
 
+        &--1{
+            margin-right: 3rem;
+        }
+
+        &--1,
+        &--2{
+            padding: 1rem;
+            transition: all .3s;
+            border-radius: .4rem;
+        }
+
+        &--1:hover,
+        &--2:hover{
+            background-color: black;
+            fill: $color-primary;
+          
+        }
     }
 }
