@@ -12,7 +12,7 @@ const WhatIDoCard = props => {
                 {props.headingText}
             </h2>
             <p className="what-i-do-card__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aliquid hic voluptatum quam temporibus, ipsa atque nemo et libero, pariatur, quibusdam tenetur quia laboriosam commodi porro corporis excepturi incidunt obcaecati!
+                {props.text}
             </p>
         </div>
     )
