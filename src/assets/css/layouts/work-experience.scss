@@ -1,0 +1,15 @@
+.section-work-experience{
+ 
+    grid-row: 4 / 5;
+    grid-column: col-start 5 / center-end;
+    display: grid;
+    align-content: start;
+    
+    &__heading{
+        font-size: 4rem;
+        font-weight: 400;
+        
+    }
+
+
+}
