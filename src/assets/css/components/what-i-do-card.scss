@@ -1,7 +1,10 @@
 .what-i-do-card{
-    margin-top: 4rem;
     padding: 2rem;
     box-shadow: 0 1rem 2rem .4rem #00000015;
+    display: inline-block;
+
+    // grid-column: center-start / center-end;
+   
 
     &__heading{
         margin-bottom: 1.5rem;

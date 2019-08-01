@@ -1,19 +1,17 @@
 .section-what-i-do{
 
     grid-column: center-start / center-end;
-    grid-row: 3 / 4;
-
-
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    grid-gap: 7rem;
+    
     margin: 15rem 0;
 
 
-    &__heading{
-        text-align: center;
-        grid-column: 1 / -1;
-        font-weight: 400;
-        font-size: 4rem;
-    }
+    //have to redefine grid structure
+    display: grid;
+
+    //do not need a row because implicity grid will cover it
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 2rem;
+
+     align-items: start;
+
 }

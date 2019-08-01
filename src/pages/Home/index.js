@@ -54,7 +54,7 @@ class Home extends React.Component {
 
 
 
-
+                {/* 
                 <SectionExperience>
                     my experience
                 </SectionExperience>
@@ -63,7 +63,7 @@ class Home extends React.Component {
                 </SectionPortfolio>
                 <SectionContact>
                     Contact me
-                </SectionContact>
+                </SectionContact> */}
             </Grid>
 
         );
