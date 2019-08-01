@@ -11,7 +11,14 @@
     overflow: hidden;
    
     position: relative;
+    @media screen and (max-width: $bp-medium){
+        grid-column: 1 / -1;
+        grid-row:  3 / 4;
 
+        width: 20rem;
+        height: 20rem;
+        
+    }
     // box-shadow: 0 2rem 4rem rgba(black, .2);
 
 
@@ -19,6 +26,18 @@
     &__img{
         margin-left: -21em;
         margin-top: -8rem;
+        
+        @media screen and (max-width: $bp-large){
+            margin-left: -30em;
+            margin-top: -12rem;
+        }
+
+        @media screen and (max-width: $bp-medium){
+           width:60rem;
+           height: 60rem;
+           margin-left: -22rem;
+           margin-top: -4rem;
+        }
         
     }
 
@@ -37,6 +56,14 @@
         position: relative;
         z-index: -1;
 
+        @media screen and (max-width: $bp-medium){
+            grid-column: 1 / -1;
+            grid-row:  3 / 4;
+
+            width: 24rem;
+            height: 24rem;
+        }
+
     }
     &__border--2{
         grid-row: 2 / 3;
@@ -53,6 +80,14 @@
         position: relative;
         z-index: -2;
         background-color:rgba(0, 0, 0, 0.05);
+
+        @media screen and (max-width: $bp-medium){
+            grid-column: 1 / -1;
+            grid-row:  3 / 4;
+
+            width: 28rem;
+            height: 28rem;
+        }
 
     }
 }

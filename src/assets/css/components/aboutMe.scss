@@ -3,6 +3,11 @@
     justify-self: center;
     padding: 0 6rem;
 
+    @media screen and (max-width: $bp-medium){
+       grid-column: 1 / -1;
+       grid-row:  1 / 2;
+    }
+
     &__text{
         font-size: 3.5rem;
         font-weight: 300;

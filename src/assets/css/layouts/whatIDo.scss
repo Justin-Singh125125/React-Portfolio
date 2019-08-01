@@ -14,4 +14,9 @@
 
      align-items: start;
 
+
+     @media screen and (max-width: $bp-smallest){
+        margin: 0;
+     }
+
 }

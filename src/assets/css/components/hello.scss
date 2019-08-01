@@ -5,6 +5,11 @@
     letter-spacing: .1rem;
     font-family: $font-secondary;
 
+    @media screen and (max-width: $bp-medium){
+        margin-top: 10rem;
+        padding: 2rem 10rem;
+    }
+
     &__im{
         display: inline-block;
         background-color:$color-primary ;
@@ -22,12 +27,17 @@
     &__name{
         font-size: 5rem;
         margin-top: 2rem;
+
+        @media screen and (max-width: $bp-smallest){
+            font-size: 4rem;
+         }
       
     }   
 
     &__stack{
         font-size: 2rem;
         margin-top: 1rem;
+
     }
 
     &__email{
@@ -37,6 +47,11 @@
         align-items: center;
         font-weight: 400;
         cursor: pointer;
+
+
+        @media screen and (max-width: $bp-smallest){
+            margin-top: 2rem;
+         }
     }
 
     &__email-icon{
@@ -78,6 +93,7 @@
         align-items: center;
         margin-top: 3rem;
         margin-left: 3rem;
+
 
         &--1{
             margin-right: 3rem;
