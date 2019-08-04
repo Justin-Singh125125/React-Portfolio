@@ -34,7 +34,7 @@ import Trillo from "../../assets/img/trillo.jpg";
 import Nexter from "../../assets/img/nexter.jpg";
 import Trivia from "../../assets/img/trivia.jpg";
 import Activ8 from "../../assets/img/activ8.jpg";
-import Burger from "../../assets/img/burger.jpg";
+import Burger from "../../assets/img/burgers.jpg";
 
 
 
