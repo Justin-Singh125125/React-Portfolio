@@ -33,6 +33,8 @@ import Natours from "../../assets/img/natours.jpg";
 import Trillo from "../../assets/img/trillo.jpg";
 import Nexter from "../../assets/img/nexter.jpg";
 import Trivia from "../../assets/img/trivia.jpg";
+import Activ8 from "../../assets/img/activ8.jpg";
+import Burger from "../../assets/img/burger.jpg";
 
 
 
@@ -99,9 +101,9 @@ class Home extends React.Component {
                     <PortfolioCard img={Trillo} cardNumber="4"/>
                     <PortfolioCard img={Trivia} cardNumber="5"/>
                     <PortfolioCard img={Nexter} cardNumber="6"/>
-                    <PortfolioCard img={Trivia} cardNumber="7"/>
+                    <PortfolioCard img={Activ8} cardNumber="7"/>
                     <PortfolioCard img={Scrape} cardNumber="8"/>
-                    <PortfolioCard img={Scrape} cardNumber="9"/>
+                    <PortfolioCard img={Burger} cardNumber="9"/>
                 </SectionPortfolio>
             </Grid>
 
