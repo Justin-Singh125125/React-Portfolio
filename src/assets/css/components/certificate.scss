@@ -1,0 +1,48 @@
+.certificate{
+    transition: all .4s;
+   
+    &:hover{
+        transform: scale(1.05);
+    }
+
+    &__link{
+        text-decoration: none;
+        color: black;
+    }
+
+    &__img{
+        width:50%;
+        height: auto;
+    }
+    
+    &__heading{
+        color: #002855;
+        font-size: 2rem;
+    }
+
+    &__sub-heading{
+        font-size: 1.4rem;
+    }
+    &__name{
+        margin-top: 1rem;
+        font-size: 1.8rem;
+        font-weight: 300;
+        // font-family: $font-secondary;
+    }
+    &__recipient{
+        font-weight: 400;
+        color: #AAA;
+    }
+
+    &__date{
+        font-size: 1.8rem;
+        font-weight: 300; 
+    }
+    &__issued{
+        font-size: 1.8rem;
+        font-weight: 400;
+        color: #AAA;
+
+    }
+
+}

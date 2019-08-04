@@ -9,8 +9,6 @@ import Technologies from "./sub-components/technologies";
 //Resume
 import Resume from "../../assets/img/Singh, Justin.pdf";
 
-//components
-import ProgressBar from "../ProgressBar";
 
 const AboutMe = props => {
     return (
@@ -23,9 +21,6 @@ const AboutMe = props => {
 
             <Technologies />
 
-            <ProgressBar progressBarClass="progress-bar__rod progress-bar__rod--1" headingText="HTML" percentage="80%" />
-            <ProgressBar progressBarClass="progress-bar__rod progress-bar__rod--2" headingText="CSS" percentage="70%" />
-            <ProgressBar progressBarClass="progress-bar__rod progress-bar__rod--3" headingText="Javascript" percentage="90%" />
 
             <div className="about-me__btn-section">
 

@@ -21,6 +21,7 @@ import AboutMeImage from "../../components/AboutMeImage";
 import AboutMe from "../../components/AboutMe";
 import WhatIDoCard from "../../components/What-I-Do-Card";
 import PrimaryCard from "../../components/PrimaryCard";
+import Certificate from "../../components/Certificate";
 
 
 //photos
@@ -39,15 +40,19 @@ class Home extends React.Component {
 
 
         return (
+          
             <Grid>
+                 
                 <Navigation />
                 <SectionIntroduction>
                     <Hello />
                     <Hero />
                 </SectionIntroduction>
                 <SectionAboutMe>
-                    <AboutMeImage img={AboutMePhoto} />
-                    <AboutMe />
+
+                <Certificate/>
+                <AboutMe />
+             
                 </SectionAboutMe>
                 <SectionWhatIDo>
                     <WhatIDoCard 
