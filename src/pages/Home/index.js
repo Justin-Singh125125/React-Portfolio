@@ -17,17 +17,22 @@ import SectionWorkExperience from "../../layouts/WorkExperience";
 import Hello from "../../components/Hello";
 import Hero from "../../components/HeroImage";
 import Navigation from "../../components/Navigation";
-import AboutMeImage from "../../components/AboutMeImage";
 import AboutMe from "../../components/AboutMe";
 import WhatIDoCard from "../../components/What-I-Do-Card";
 import PrimaryCard from "../../components/PrimaryCard";
 import Certificate from "../../components/Certificate";
+import PortfolioCard from "../../components/PortfolioCard";
+
 
 
 //photos
-// import AboutMePhoto from "../../assets/img/about-me-picture.png";
-import AboutMePhoto from "../../assets/img/about-me-picture.png";
-import skillPhoto from "../../assets/img/skills.jpg";
+import Scrape from "../../assets/img/scrape.jpg";
+import MemeBattles from "../../assets/img/meme-battles.jpg";
+import BoredAndFree from "../../assets/img/bored-and-free.jpg";
+import Natours from "../../assets/img/natours.jpg";
+import Trillo from "../../assets/img/trillo.jpg";
+import Nexter from "../../assets/img/nexter.jpg";
+import Trivia from "../../assets/img/trivia.jpg";
 
 
 
@@ -86,6 +91,18 @@ class Home extends React.Component {
                         link={true}
                     />
                 </SectionWorkExperience>
+
+                <SectionPortfolio>
+                    <PortfolioCard img={Natours} cardNumber="1"/>
+                    <PortfolioCard img={MemeBattles} cardNumber="2"/>
+                    <PortfolioCard img={BoredAndFree} cardNumber="3"/>
+                    <PortfolioCard img={Trillo} cardNumber="4"/>
+                    <PortfolioCard img={Trivia} cardNumber="5"/>
+                    <PortfolioCard img={Nexter} cardNumber="6"/>
+                    <PortfolioCard img={Trivia} cardNumber="7"/>
+                    <PortfolioCard img={Scrape} cardNumber="8"/>
+                    <PortfolioCard img={Scrape} cardNumber="9"/>
+                </SectionPortfolio>
             </Grid>
 
         );
