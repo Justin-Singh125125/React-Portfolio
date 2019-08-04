@@ -23,12 +23,14 @@
     &__sub-heading{
         font-size: 1.4rem;
     }
+    
     &__name{
         margin-top: 1rem;
         font-size: 1.8rem;
         font-weight: 300;
         // font-family: $font-secondary;
     }
+
     &__recipient{
         font-weight: 400;
         color: #AAA;
@@ -38,11 +40,11 @@
         font-size: 1.8rem;
         font-weight: 300; 
     }
+
     &__issued{
         font-size: 1.8rem;
         font-weight: 400;
         color: #AAA;
 
     }
-
 }

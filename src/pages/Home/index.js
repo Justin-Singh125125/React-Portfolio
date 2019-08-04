@@ -40,19 +40,15 @@ class Home extends React.Component {
 
 
         return (
-          
             <Grid>
-                 
                 <Navigation />
                 <SectionIntroduction>
                     <Hello />
                     <Hero />
                 </SectionIntroduction>
                 <SectionAboutMe>
-
                 <Certificate/>
                 <AboutMe />
-             
                 </SectionAboutMe>
                 <SectionWhatIDo>
                     <WhatIDoCard 
@@ -89,7 +85,6 @@ class Home extends React.Component {
                         text="Contributed to the conversion of a wordpress site to have JQuery Functionality. Implemented Mapbox API to render locations nearest to the user"
                         link={true}
                     />
-
                 </SectionWorkExperience>
             </Grid>
 

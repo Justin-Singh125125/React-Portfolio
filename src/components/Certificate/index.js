@@ -12,7 +12,6 @@ const Certificate = props => {
                 <h5 className="certificate__date"><span className="certificate__issued">  Issued: &nbsp;&nbsp;&nbsp;&nbsp;</span>4/8/2019</h5>
             </a>
         </div>
-
     )
 }
 
