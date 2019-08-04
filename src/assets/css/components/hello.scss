@@ -1,9 +1,11 @@
 .hello{
     grid-row: 2 / 3;
     grid-column:  1 / 2;
-    padding: 10rem;
     letter-spacing: .1rem;
     font-family: $font-secondary;
+    // justify-self: center;
+    align-self: center;
+    justify-self: start;
 
     @media screen and (max-width: $bp-medium){
         margin-top: 10rem;
