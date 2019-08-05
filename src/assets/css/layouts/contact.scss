@@ -1,6 +1,11 @@
 .section-contact{
-    background-color: coral;
-
-    grid-column: center-start / center-end;
+    background-image: url("../img/contact.jpg");
+    background-size: cover;
+    grid-column: full-start / full-end;
     grid-row: 7 / 8;
+
+    display: grid;
+
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: 1fr minmax(50rem, 1fr) 1fr;
 }

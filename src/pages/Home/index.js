@@ -23,6 +23,7 @@ import PrimaryCard from "../../components/PrimaryCard";
 import Certificate from "../../components/Certificate";
 import PortfolioCard from "../../components/PortfolioCard";
 import Popup from "../../components/Popup";
+import ContactForm from "../../components/ContactForm";
 
 
 //photos
@@ -245,7 +246,15 @@ class Home extends React.Component {
                     <PortfolioCard handlePopup={()=>this.handlePopup("Sequelized Burger")} projectName="Sequelized Burger" img={Burger} cardNumber="9"/>
                 </SectionPortfolio>
 
+                <SectionContact>
+                    <ContactForm/>
+                </SectionContact>
+
+              
+
                 <Popup data={this.state.currentPopupData} openPopup={this.state.openPopup} handlePopup={this.handlePopup}/>
+
+
             </Grid>
 
         
