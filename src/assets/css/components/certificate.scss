@@ -1,13 +1,14 @@
 .certificate{
     transition: all .4s;
-   
-    &:hover{
-        transform: scale(1.05);
-    }
+ 
 
-    &__link{
+    
+
+    &__link:active,
+    &__link:visited{
         text-decoration: none;
-        color: black;
+        color: white;
+        outline: none;
     }
 
     &__img{
@@ -39,12 +40,13 @@
     &__date{
         font-size: 1.8rem;
         font-weight: 300; 
+        margin-bottom: 1rem;
     }
 
     &__issued{
         font-size: 1.8rem;
         font-weight: 400;
         color: #AAA;
-
+      
     }
 }

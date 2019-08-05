@@ -14,6 +14,7 @@ const Popup = props => {
 
                 <p className="popup__text">{props.data.text}</p>
 
+
                 <Technologies technologies={props.data.technologies} />
                 <a href={props.data.link} className="popup__btn btn btn--green" target="_blank">Live Demo</a>
 
