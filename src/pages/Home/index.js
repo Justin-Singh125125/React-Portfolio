@@ -44,16 +44,140 @@ class Home extends React.Component {
 
 
     state={
-        openPopup: false
+        openPopup: false,
+
+        currentPopupData: "",
+
+        portfolioArray: [
+            {
+                projectName: "Natours",
+                text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ullam quo asperiores nesciunt quidem possimus a tempora animi consequuntur doloremque expedita deserunt consectetur, quasi nulla praesentium odio natus reprehenderit nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolorem repudiandae doloremque vitae? Placeat reiciendis fugiat numquam doloribus dolores aliquam voluptatem explicabo veniam minus saepe exercitationem ipsum earum, officiis aspernatur?",
+                technologies: ["HTML", "CSS"],
+                img: Natours,
+                link: "https://natours-wilderness.netlify.com/"
+            },
+            {
+                projectName: "Meme Battles",
+                text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ullam quo asperiores nesciunt quidem possimus a tempora animi consequuntur doloremque expedita deserunt consectetur, quasi nulla praesentium odio natus reprehenderit nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolorem repudiandae doloremque vitae? Placeat reiciendis fugiat numquam doloribus dolores aliquam voluptatem explicabo veniam minus saepe exercitationem ipsum earum, officiis aspernatur?",
+                technologies: ["HTML", "CSS", "Javascript","Node","Express", "MySQL", "Handlebars", "Passport"],
+                img: MemeBattles,
+                link: "https://bit.ly/2RlQ8UX"
+            },
+            {
+                projectName: "Bored and Free",
+                text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ullam quo asperiores nesciunt quidem possimus a tempora animi consequuntur doloremque expedita deserunt consectetur, quasi nulla praesentium odio natus reprehenderit nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolorem repudiandae doloremque vitae? Placeat reiciendis fugiat numquam doloribus dolores aliquam voluptatem explicabo veniam minus saepe exercitationem ipsum earum, officiis aspernatur?",
+                technologies: ["HTML", "CSS", "Javascript", "Firebase"],
+                img: BoredAndFree,
+                link: "https://ewu2.github.io/bored-af/index.html"
+            },
+            {
+                projectName: "Trillo",
+                text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ullam quo asperiores nesciunt quidem possimus a tempora animi consequuntur doloremque expedita deserunt consectetur, quasi nulla praesentium odio natus reprehenderit nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolorem repudiandae doloremque vitae? Placeat reiciendis fugiat numquam doloribus dolores aliquam voluptatem explicabo veniam minus saepe exercitationem ipsum earum, officiis aspernatur?",
+                technologies: ["HTML", "CSS", "React", "SASS", "Flexbox"],
+                img: Trillo,
+                link: "https://trillo-app-125125.netlify.com/"
+            },
+            {
+                projectName: "Trivia Game",
+                text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ullam quo asperiores nesciunt quidem possimus a tempora animi consequuntur doloremque expedita deserunt consectetur, quasi nulla praesentium odio natus reprehenderit nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolorem repudiandae doloremque vitae? Placeat reiciendis fugiat numquam doloribus dolores aliquam voluptatem explicabo veniam minus saepe exercitationem ipsum earum, officiis aspernatur?",
+                technologies: ["HTML", "CSS", "Javascript"],
+                img: Trivia,
+                link: "https://justin-singh125125.github.io/Trivia-Game/"
+            },
+            {
+                projectName: "Nexter",
+                text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ullam quo asperiores nesciunt quidem possimus a tempora animi consequuntur doloremque expedita deserunt consectetur, quasi nulla praesentium odio natus reprehenderit nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolorem repudiandae doloremque vitae? Placeat reiciendis fugiat numquam doloribus dolores aliquam voluptatem explicabo veniam minus saepe exercitationem ipsum earum, officiis aspernatur?",
+                technologies: ["HTML", "CSS", "React", "SASS", "CSS Grid"],
+                img: Nexter,
+                link: "https://nexter-realtor.netlify.com/"
+            },
+            {
+                projectName: "Activ8",
+                text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ullam quo asperiores nesciunt quidem possimus a tempora animi consequuntur doloremque expedita deserunt consectetur, quasi nulla praesentium odio natus reprehenderit nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolorem repudiandae doloremque vitae? Placeat reiciendis fugiat numquam doloribus dolores aliquam voluptatem explicabo veniam minus saepe exercitationem ipsum earum, officiis aspernatur?",
+                technologies: ["HTML", "CSS", "Javascript","React","Node", "Express", "MongoDB", "Passport"],
+                img: Activ8,
+                link: "https://activ8125125.herokuapp.com/"
+            },
+            {
+                projectName: "Article Scraper",
+                text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ullam quo asperiores nesciunt quidem possimus a tempora animi consequuntur doloremque expedita deserunt consectetur, quasi nulla praesentium odio natus reprehenderit nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolorem repudiandae doloremque vitae? Placeat reiciendis fugiat numquam doloribus dolores aliquam voluptatem explicabo veniam minus saepe exercitationem ipsum earum, officiis aspernatur?",
+                technologies: ["HTML", "CSS", "Javascript","Node", "Express","Handlebars", "MongoDB", "Passport"],
+                img: Scrape,
+                link: "https://web-scraper125125.herokuapp.com/"
+            },
+            {
+                projectName: "Sequelized Burger",
+                text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ullam quo asperiores nesciunt quidem possimus a tempora animi consequuntur doloremque expedita deserunt consectetur, quasi nulla praesentium odio natus reprehenderit nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolorem repudiandae doloremque vitae? Placeat reiciendis fugiat numquam doloribus dolores aliquam voluptatem explicabo veniam minus saepe exercitationem ipsum earum, officiis aspernatur?",
+                technologies: ["HTML", "CSS", "Javascript","Node", "Express","Handlebars", "MySQL", "Sequelize", "Passport"],
+                img: Burger,
+                link: "https://sequelized-burger125125.herokuapp.com/"
+            }
+        ]
     }
 
-   handlePopup=()=>{
+   handlePopup=(projectName)=>{
        if(this.state.openPopup){
+
+      
         this.setState({openPopup: false})
 
        }
        else{
-           this.setState({openPopup: true})
+           if(projectName==="Natours"){
+               this.setState({
+                   openPopup: true,
+                   currentPopupData: this.state.portfolioArray[0]
+               })
+           }
+           if(projectName==="Meme Battles"){
+               this.setState({
+                   openPopup: true,
+                   currentPopupData: this.state.portfolioArray[1]
+               })
+           }
+           if(projectName==="Bored and Free"){
+               this.setState({
+                   openPopup: true,
+                   currentPopupData: this.state.portfolioArray[2]
+               })
+           }
+           if(projectName==="Trillo"){
+               this.setState({
+                   openPopup: true,
+                   currentPopupData: this.state.portfolioArray[3]
+               })
+           }
+           if(projectName==="Trivia Game"){
+               this.setState({
+                   openPopup: true,
+                   currentPopupData: this.state.portfolioArray[4]
+               })
+           }
+           if(projectName==="Nexter"){
+               this.setState({
+                   openPopup: true,
+                   currentPopupData: this.state.portfolioArray[5]
+               })
+           }
+           if(projectName==="Activ8"){
+               this.setState({
+                   openPopup: true,
+                   currentPopupData: this.state.portfolioArray[6]
+               })
+           }
+           if(projectName==="Article Scraper"){
+               this.setState({
+                   openPopup: true,
+                   currentPopupData: this.state.portfolioArray[7]
+               })
+           }
+           if(projectName==="Sequelized Burger"){
+               this.setState({
+                   openPopup: true,
+                   currentPopupData: this.state.portfolioArray[8]
+               })
+           }
+       
        }
    }
 
@@ -110,18 +234,18 @@ class Home extends React.Component {
                 </SectionWorkExperience>
 
                 <SectionPortfolio>
-                <PortfolioCard handlePopup={this.handlePopup} projectName="Natours" img={Natours} cardNumber="1"/>
-                    <PortfolioCard handlePopup={this.handlePopup} projectName="Meme Battles" img={MemeBattles} cardNumber="2"/>
-                    <PortfolioCard handlePopup={this.handlePopup} projectName="Bored and Free" img={BoredAndFree} cardNumber="3"/>
-                    <PortfolioCard handlePopup={this.handlePopup}  projectName="Trillo" img={Trillo} cardNumber="4"/>
-                    <PortfolioCard handlePopup={this.handlePopup} projectName="Trivia Game" img={Trivia} cardNumber="5"/>
-                    <PortfolioCard handlePopup={this.handlePopup} projectName="Nexter" img={Nexter} cardNumber="6"/>
-                    <PortfolioCard handlePopup={this.handlePopup} projectName="Activ8" img={Activ8} cardNumber="7"/>
-                    <PortfolioCard handlePopup={this.handlePopup} projectName="Article Scraper" img={Scrape} cardNumber="8"/>
-                    <PortfolioCard handlePopup={this.handlePopup} projectName="Sequelized Burger" img={Burger} cardNumber="9"/>
+                <PortfolioCard handlePopup={()=>this.handlePopup("Natours")} projectName="Natours" img={Natours} cardNumber="1"/>
+                    <PortfolioCard handlePopup={()=>this.handlePopup("Meme Battles")} projectName="Meme Battles" img={MemeBattles} cardNumber="2"/>
+                    <PortfolioCard handlePopup={()=>this.handlePopup("Bored and Free")} projectName="Bored and Free" img={BoredAndFree} cardNumber="3"/>
+                    <PortfolioCard handlePopup={()=>this.handlePopup("Trillo")}  projectName="Trillo" img={Trillo} cardNumber="4"/>
+                    <PortfolioCard handlePopup={()=>this.handlePopup("Trivia Game")} projectName="Trivia Game" img={Trivia} cardNumber="5"/>
+                    <PortfolioCard handlePopup={()=>this.handlePopup("Nexter" )} projectName="Nexter" img={Nexter} cardNumber="6"/>
+                    <PortfolioCard handlePopup={()=>this.handlePopup("Activ8" )} projectName="Activ8" img={Activ8} cardNumber="7"/>
+                    <PortfolioCard handlePopup={()=>this.handlePopup("Article Scraper" )} projectName="Article Scraper" img={Scrape} cardNumber="8"/>
+                    <PortfolioCard handlePopup={()=>this.handlePopup("Sequelized Burger")} projectName="Sequelized Burger" img={Burger} cardNumber="9"/>
                 </SectionPortfolio>
 
-                <Popup openPopup={this.state.openPopup} handlePopup={this.handlePopup}/>
+                <Popup data={this.state.currentPopupData} openPopup={this.state.openPopup} handlePopup={this.handlePopup}/>
             </Grid>
 
         

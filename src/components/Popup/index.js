@@ -10,14 +10,14 @@ const Popup = props => {
 
             <div className="popup__content">
                 <a onClick={props.handlePopup} href="#section-portfolio" className="popup__close">&times;</a>
-                <h2 className="popup__project-name">Natours</h2>
+                <h2 className="popup__project-name">{props.data.projectName}</h2>
 
-                <p className="popup__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ullam quo asperiores nesciunt quidem possimus a tempora animi consequuntur doloremque expedita deserunt consectetur, quasi nulla praesentium odio natus reprehenderit nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolorem repudiandae doloremque vitae? Placeat reiciendis fugiat numquam doloribus dolores aliquam voluptatem explicabo veniam minus saepe exercitationem ipsum earum, officiis aspernatur?</p>
+                <p className="popup__text">{props.data.text}</p>
 
                 <Technologies />
-                <a href="#" className="popup__btn btn btn--green">Live Demo</a>
+                <a href={props.data.link} className="popup__btn btn btn--green" target="_blank">Live Demo</a>
 
-                <img src={Natours} alt="" className="popup__img" />
+                <img src={props.data.img} alt="" className="popup__img" />
             </div>
         </div>
 
