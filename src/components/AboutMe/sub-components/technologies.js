@@ -2,7 +2,7 @@ import React from "react";
 
 const Technologies = props => {
     return (
-        <div className="about-me__technologies">
+        <div className="popup__technologies about-me__technologies">
             <p>HTML</p>
             <p>CSS</p>
             <p>Javascript</p>

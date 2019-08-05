@@ -1,28 +1,23 @@
 import React from "react";
 
+//photos
+import Natours from "../../assets/img/natours.jpg";
+
+import Technologies from "../AboutMe/sub-components/technologies";
 const Popup = props => {
     return (
         <div className={props.openPopup ? "popup open" : "popup"} id="popup">
+
             <div className="popup__content">
                 <a onClick={props.handlePopup} href="#section-portfolio" className="popup__close">&times;</a>
-                <h2 className="heading-secondary u-margin-bottom-small">Start booking now</h2>
-                <h3 className="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before
-                    booking</h3>
-                <p className="popup__text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.
-                    Sed sed risus pretium quam. Aliquam sem et tortor consequat id. Volutpat odio facilisis mauris sit
-                    amet massa vitae. Mi bibendum neque egestas congue. Placerat orci nulla pellentesque dignissim enim
-                    sit. Vitae semper quis lectus nulla at volutpat diam ut venenatis. Malesuada pellentesque elit eget
-                    gravida cum sociis natoque penatibus et. Proin fermentum leo vel orci porta non pulvinar neque
-                    laoreet.
-                    Gravida neque convallis a cras semper. Molestie at elementum eu facilisis sed odio morbi quis.
-                    Faucibus
-                    vitae aliquet nec ullamcorper sit amet risus nullam eget. Nam libero justo laoreet sit. Amet massa
-                    vitae tortor condimentum lacinia quis vel eros donec. Sit amet facilisis magna etiam. Imperdiet sed
-                    euismod nisi porta.
-                </p>
-                <a href="#" className="btn btn--green">Book now</a>
+                <h2 className="popup__project-name">Natours</h2>
+
+                <p className="popup__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ullam quo asperiores nesciunt quidem possimus a tempora animi consequuntur doloremque expedita deserunt consectetur, quasi nulla praesentium odio natus reprehenderit nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolorem repudiandae doloremque vitae? Placeat reiciendis fugiat numquam doloribus dolores aliquam voluptatem explicabo veniam minus saepe exercitationem ipsum earum, officiis aspernatur?</p>
+
+                <Technologies />
+                <a href="#" className="popup__btn btn btn--green">Live Demo</a>
+
+                <img src={Natours} alt="" className="popup__img" />
             </div>
         </div>
 
