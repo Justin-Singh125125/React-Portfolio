@@ -2,9 +2,7 @@ import React from "react";
 
 //components
 import SvgIcon from "../../components/SvgIcon";
-
-//sub-components
-import Technologies from "./sub-components/technologies";
+import Technologies from "../../components/Technologies";
 
 //Resume
 import Resume from "../../assets/img/Singh, Justin.pdf";
@@ -19,7 +17,7 @@ const AboutMe = props => {
                 I am experienced in the technologies found below!
             </p>
 
-            <Technologies />
+            <Technologies technologies={["HTML", "CSS", "Javascript", "Express", "React", "MongoDB", "MySQL"]} />
             <div className="about-me__btn-section">
                 <a id="center" className="test btn btn--green" href={Resume} download>
                     Download Resume  <SvgIcon svgClass="about-me__btn-icon" svgSelection="icon-download3" />

@@ -52,7 +52,7 @@ class Home extends React.Component {
             {
                 projectName: "Natours",
                 text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ullam quo asperiores nesciunt quidem possimus a tempora animi consequuntur doloremque expedita deserunt consectetur, quasi nulla praesentium odio natus reprehenderit nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolorem repudiandae doloremque vitae? Placeat reiciendis fugiat numquam doloribus dolores aliquam voluptatem explicabo veniam minus saepe exercitationem ipsum earum, officiis aspernatur?",
-                technologies: ["HTML", "CSS"],
+                technologies: ["HTML", "CSS", "SASS"],
                 img: Natours,
                 link: "https://natours-wilderness.netlify.com/"
             },
