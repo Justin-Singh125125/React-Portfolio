@@ -1,8 +1,57 @@
 .contact{
-    background-color: white;
+    background-color: transparent;
+    justify-self: center;
 
-    grid-row: 2 / 3;
-    grid-column: 6 / 9;
+    align-self: center;
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    grid-template-rows: 1fr repeat(4, min-content) 1fr;
+    padding: 2rem;
+
+    input{
+        padding: 2.5rem 2rem;
+        height: 4rem;
+        border-radius: .25rem;
+        font-family: $font-secondary;
+        border: 2px solid $color-primary;
+        // background-color: transparent;
+        font-size: 1.5rem;
+    }
+    input:focus,
+    textarea:focus{
+        border: 2px solid $color-primary-dark;
+
+       
+
+    }
+    textarea{
+        padding: 2.5rem 2rem;
+        font-family: $font-secondary;
+        border-radius: .25rem;
+        // background-color: transparent;
+        border: 2px solid $color-primary;
+
+
+    }
+    &__btn{
+        font-family: $font-secondary;
+    }
+
+    &__firstName{
+        grid-column:  1 / 2;
+
+    }
+
+    &__email{
+        grid-column: 1 / -1;
+    }
+
+    &__message{
+        grid-column: 1 / -1;
+    }
 
 
 }
