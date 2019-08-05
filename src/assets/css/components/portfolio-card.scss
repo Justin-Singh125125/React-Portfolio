@@ -2,12 +2,88 @@
 
     border-radius: 1rem;
 
+    position: relative;
+
+    overflow: hidden;
+
+   
+   
+    &:hover{
+        cursor: pointer;
+    }
+
+    &:hover &__img{
+       transform: scale(1.2);
+    }
+    &:hover::after{
+        background-color: $color-primary-2;
+    }
+   
+
+    &::after{
+        content: "";
+        display: block;
+        position: absolute;
+        background: transparent;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        opacity: .9;
+        z-index: 1;
+        border-radius: 1rem;       
+        transition: all .4s;
+
+    }
+
+    &__project-name{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-10rem, -50%);
+    color: white;
+    font-size: 2rem;
+    letter-spacing: .1rem;
+    font-weight: 400;
+    opacity: 0;
+    transition: all .4s;
+    z-index: 2;
+    }
+
+    &:hover &__project-name{
+        transform: translate(-50%, -50%);
+
+    }
+
+    &__icon{
+        width: 3rem;
+        height: 3rem;
+        fill: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        opacity: 0;
+        transition: all .4s;
+
+    }
+
+    &:hover &__icon{
+        opacity: 1;
+    }
+
+    &:hover &__project-name{
+        opacity: 1;
+    }
+
     &__img{
         width: 100%;
         height: 100%;
         object-fit: cover;
         display: block;
         border-radius: 1rem;
+        transition: all .4s;
     }
 
     &--1{

@@ -22,7 +22,7 @@ import WhatIDoCard from "../../components/What-I-Do-Card";
 import PrimaryCard from "../../components/PrimaryCard";
 import Certificate from "../../components/Certificate";
 import PortfolioCard from "../../components/PortfolioCard";
-
+import Popup from "../../components/Popup";
 
 
 //photos
@@ -41,6 +41,21 @@ import Burger from "../../assets/img/burgers.jpg";
 
 
 class Home extends React.Component {
+
+
+    state={
+        openPopup: false
+    }
+
+   handlePopup=()=>{
+       if(this.state.openPopup){
+        this.setState({openPopup: false})
+
+       }
+       else{
+           this.setState({openPopup: true})
+       }
+   }
 
 
     render() {
@@ -95,17 +110,23 @@ class Home extends React.Component {
                 </SectionWorkExperience>
 
                 <SectionPortfolio>
-                    <PortfolioCard img={Natours} cardNumber="1"/>
-                    <PortfolioCard img={MemeBattles} cardNumber="2"/>
-                    <PortfolioCard img={BoredAndFree} cardNumber="3"/>
-                    <PortfolioCard img={Trillo} cardNumber="4"/>
-                    <PortfolioCard img={Trivia} cardNumber="5"/>
-                    <PortfolioCard img={Nexter} cardNumber="6"/>
-                    <PortfolioCard img={Activ8} cardNumber="7"/>
-                    <PortfolioCard img={Scrape} cardNumber="8"/>
-                    <PortfolioCard img={Burger} cardNumber="9"/>
+                <PortfolioCard handlePopup={this.handlePopup} projectName="Natours" img={Natours} cardNumber="1"/>
+                    <PortfolioCard handlePopup={this.handlePopup} projectName="Meme Battles" img={MemeBattles} cardNumber="2"/>
+                    <PortfolioCard handlePopup={this.handlePopup} projectName="Bored and Free" img={BoredAndFree} cardNumber="3"/>
+                    <PortfolioCard handlePopup={this.handlePopup}  projectName="Trillo" img={Trillo} cardNumber="4"/>
+                    <PortfolioCard handlePopup={this.handlePopup} projectName="Trivia Game" img={Trivia} cardNumber="5"/>
+                    <PortfolioCard handlePopup={this.handlePopup} projectName="Nexter" img={Nexter} cardNumber="6"/>
+                    <PortfolioCard handlePopup={this.handlePopup} projectName="Activ8" img={Activ8} cardNumber="7"/>
+                    <PortfolioCard handlePopup={this.handlePopup} projectName="Article Scraper" img={Scrape} cardNumber="8"/>
+                    <PortfolioCard handlePopup={this.handlePopup} projectName="Sequelized Burger" img={Burger} cardNumber="9"/>
                 </SectionPortfolio>
+
+                <Popup openPopup={this.state.openPopup} handlePopup={this.handlePopup}/>
             </Grid>
+
+        
+
+
 
         );
     }
