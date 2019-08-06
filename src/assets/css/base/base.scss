@@ -12,10 +12,13 @@ html{
     scroll-behavior: smooth;
 
     @media screen and (max-width: $bp-medium){
-        font-size: 58%;
+        font-size: 50%;
     }
     @media screen and (max-width: $bp-small){
-        font-size: 50%;
+        font-size: 45%;
+    }
+    @media screen and (max-width: $bp-super-small){
+        font-size: 40%;
     }
 }
 
