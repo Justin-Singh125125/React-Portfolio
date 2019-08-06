@@ -8,7 +8,7 @@ const test = props => {
             <h4 className="primary-card__year">{props.year}</h4>
             <p className="primary-card__text">{props.text}</p>
 
-            {props.link ? <a className="primary-card__btn btn btn--green" target="_blank" href="https://www.ppochildrens.org/locate-a-practice/" >View Website</a> : ""}
+            {props.button ? <a className="primary-card__btn btn btn--green" target="_blank" href={props.link}>{props.buttonText}</a> : ""}
         </div>
     )
 }

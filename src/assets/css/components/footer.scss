@@ -38,7 +38,9 @@
     &__link:link,
     &__link:visited{
         text-decoration: none;   
-        color: black; 
+        color: white; 
+        padding: .2rem 2rem;
+    
     }
     &__text-section{
         margin-right: auto;
