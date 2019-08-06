@@ -15,3 +15,14 @@
         box-shadow: none;
     }
 }
+
+@keyframes test{
+
+    0%{
+        transform: translateX(-20rem);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
