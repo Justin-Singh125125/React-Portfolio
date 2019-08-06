@@ -1,7 +1,11 @@
 .certificate{
     transition: all .4s;
  
-
+    @media screen and (max-width: $bp-medium){
+        grid-column: 1 / -1;
+        text-align: center;
+        margin-top: 10rem;
+     }
     
 
     &__link:active,

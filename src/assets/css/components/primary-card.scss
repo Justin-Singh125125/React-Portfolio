@@ -6,6 +6,11 @@
     font-size: 1.6rem;
     opacity: .8;
     font-family: $font-secondary;
+
+    @media screen and (max-width: $bp-medium-small){
+        justify-self: center;
+    }
+    
     &__heading{
         font-weight: 600;
    

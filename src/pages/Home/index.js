@@ -204,17 +204,7 @@ class Home extends React.Component {
                 <Certificate/>
                 <AboutMe />
                 </SectionAboutMe>
-                <SectionWhatIDo>
-                    <WhatIDoCard 
-                    text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aliquid hic voluptatum quam temporibus, ipsa atque nemo et libero, pariatur, quibusdam tenetur quia laboriosam commodi porro corporis excepturi incidunt obcaecati!"
-                    headingText="UI Design" svgClass="what-i-do-card__icon what-i-do-card__icon--1" svgSelection="icon-feed" />
-                    <WhatIDoCard 
-                    text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aliquid hic voluptatum quam temporibus, ipsa atque nemo et libero, pariatur, quibusdam tenetur quia laboriosam commodi porro corporis excepturi incidunt obcaecati!"
-                    headingText="Web Development" svgClass="what-i-do-card__icon what-i-do-card__icon--2" svgSelection="icon-embed2" />
-                    <WhatIDoCard 
-                    text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aliquid hic voluptatum quam temporibus, ipsa atque nemo et libero, pariatur, quibusdam tenetur quia laboriosam commodi porro corporis excepturi incidunt obcaecati!"
-                    headingText="Database Management" svgClass="what-i-do-card__icon what-i-do-card__icon--3" svgSelection="icon-database" />
-                </SectionWhatIDo>
+    
                 <SectionEducation>
                     <PrimaryCard
                         headingText="Computer Science"

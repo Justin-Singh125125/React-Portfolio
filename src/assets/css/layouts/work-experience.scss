@@ -2,12 +2,25 @@
  
     grid-row: 4 / 5;
     grid-column: col-start 5 / center-end;
+
     display: grid;
     align-content: start;
+
+    @media screen and (max-width: $bp-medium-small){
+        grid-row: 5 / 6;
+        grid-column: center-start / center-end;
+        margin-top: 3rem;
+    }
+
+
     
     &__heading{
         font-size: 4rem;
         font-weight: 400;
+
+        @media screen and (max-width: $bp-medium-small){
+            text-align: center;
+        }
         
     }
 

@@ -12,6 +12,15 @@
     grid-gap: 3rem;
 
 
+    @media screen and (max-width: $bp-medium-small){
+          //do not need a row because implicity grid will cover it
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 6rem;
+
+     align-items: start;
+
+     }
+
     &__heading{
         text-align: center;
         grid-row: 1 / 2;
