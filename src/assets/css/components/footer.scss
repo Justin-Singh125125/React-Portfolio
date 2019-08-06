@@ -1,0 +1,49 @@
+.footer{
+    grid-row: 7 / 8;
+    grid-column: center-start / center-end;
+
+    margin: 5rem 0;
+    padding: 4rem;
+
+    display: flex;
+
+    @media screen and (max-width: $bp-smallest){
+        //do not need a row because implicity grid will cover it
+  
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+
+   }
+    
+
+    &__text{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    &__inspiration{
+        font-size: 1.3rem;
+
+        
+    @media screen and (max-width: $bp-smallest){
+        //do not need a row because implicity grid will cover it
+  
+        margin-bottom: 2rem;
+   }
+
+    }
+    &__link:link,
+    &__link:visited{
+        text-decoration: none;   
+        color: black; 
+    }
+    &__text-section{
+        margin-right: auto;
+    }
+    &__built-with{
+        font-size: 1.5rem;
+    }
+}

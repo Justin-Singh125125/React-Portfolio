@@ -11,7 +11,9 @@
     @media screen and (max-width: $bp-medium-small){
         //do not need a row because implicity grid will cover it
         grid-template-columns:[center-start] repeat(8, [col-start] minmax(min-content, 14rem) 
-    [col-end]) [center-end]
+    [col-end]) [center-end];
+
+    grid-template-rows: 80vh repeat(5, min-content);
 
    }
 
