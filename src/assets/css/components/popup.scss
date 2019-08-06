@@ -31,6 +31,23 @@
         grid-template-rows: repeat(4, min-content);
         grid-column-gap: 3rem;
         grid-row-gap: 3rem;
+
+
+        @media screen and (max-width: $bp-super-large){
+            top: 50%;
+            padding: 4rem;
+
+        }
+        @media screen and (max-width: $bp-medium-small){
+            display: flex;
+            flex-direction: column;
+
+        }
+
+
+      
+
+        
     
     }
 
@@ -43,12 +60,20 @@
         font-size: 4rem;
         border-bottom: 2px solid $color-grey-dark-3;
 
+
+
     }
 
     &__text{
         font-size: 1.5rem;
         font-weight: 400;
         opacity: .8;
+
+        @media screen and (max-width: $bp-medium-small){
+            
+            grid-row: 3 / 4;
+            grid-column: 1 / -1;
+        }
     }
 
     &__img{
@@ -57,11 +82,29 @@
         object-fit: cover;
         grid-column: 2 / 3;
         grid-row: 1 / 5;
+
+        // @media screen and (max-width: $bp-super-large){
+        //     font-size: 40%;
+        // }
+
+        @media screen and (max-width: $bp-medium-small){
+            
+            grid-row: 2 / 3;
+            grid-column: 1 / -1;
+            height: auto;
+        }
     }
 
     &__technologies{
         grid-column: 1 / 2;
         align-self: start;
+
+        @media screen and (max-width: $bp-medium-small){
+            
+            grid-row: 4 / 5;
+            grid-column: 1 / -1;
+            height: auto;
+        }
     }
 
     &__btn{

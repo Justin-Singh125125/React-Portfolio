@@ -14,11 +14,13 @@ const Popup = props => {
 
                 <p className="popup__text">{props.data.text}</p>
 
+                <img src={props.data.img} alt="" className="popup__img" />
+
 
                 <Technologies technologies={props.data.technologies} />
                 <a href={props.data.link} className="popup__btn btn btn--green" target="_blank">Live Demo</a>
 
-                <img src={props.data.img} alt="" className="popup__img" />
+
             </div>
         </div>
 

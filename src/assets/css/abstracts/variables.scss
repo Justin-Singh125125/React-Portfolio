@@ -43,10 +43,12 @@ $font-primary: 'Oswald', sans-serif;
 $font-secondary: 'Roboto Condensed', sans-serif;
 
 //mobile responsive
+
+$bp-super-large: 112.5em;
 $bp-largest: 75em; // 1200 px
 $bp-large: 62.5em; //1000px
 $bp-medium: 50em;  //800px
-$bp-medium-small: 43.75em;
+$bp-medium-small: 43.75em; //700px
 $bp-small: 37.5em; //600px
 $bp-smallest: 31.25em; //500px
 $bp-super-small: 22.5em;

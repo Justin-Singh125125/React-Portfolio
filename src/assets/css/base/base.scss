@@ -11,11 +11,18 @@ html{
     font-size: 62.5%; //1rem = 10px
     scroll-behavior: smooth;
 
+    @media screen and (max-width: $bp-super-large){
+        font-size: 55%;
+    }
+    @media screen and (max-width: $bp-large){
+        font-size: 52%;
+    }
+
     @media screen and (max-width: $bp-medium){
-        font-size: 50%;
+        font-size: 45%;
     }
     @media screen and (max-width: $bp-small){
-        font-size: 45%;
+        font-size: 43%;
     }
     @media screen and (max-width: $bp-super-small){
         font-size: 40%;
