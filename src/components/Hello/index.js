@@ -10,7 +10,7 @@ const Hello = props => {
             <h5 className="hello__im">Hello I'm</h5>
             <h2 className="hello__name">Justin Singh</h2>
             <h3 className="hello__stack">Full Stack Web Developer</h3>
-            <h6 className="hello__email"><SvgIcon svgClass="hello__icon hello__email-icon" svgSelection="icon-envelop" />Justin.Singh125125@gmail.com</h6>
+            <a className="hello__link" href="mailto:justin.singh125125@gmail.com"><h6 className="hello__email"><SvgIcon svgClass="hello__icon hello__email-icon" svgSelection="icon-envelop" />Justin.Singh125125@gmail.com</h6></a>
             <h6 className="hello__number"><SvgIcon svgClass="hello__icon hello__phone-icon" svgSelection="icon-phone" />(916)-955-8073</h6>
             <div className="hello__icons">
                 <div className="hello__icons--1">

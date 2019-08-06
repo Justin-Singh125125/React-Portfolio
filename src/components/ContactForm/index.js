@@ -8,7 +8,7 @@ const ContactForm = props => {
             <input type="email" className="contact__email" placeholder="Your Email" />
 
             <textarea className="contact__message" cols="30" rows="10" placeholder="Your message"></textarea>
-            <button className="contact__btn btn btn--green">Send Message</button>
+            <a href="mailto:justin.singh125125@gmail.com?Subject=Web%20Development" className="contact__btn btn btn--green">Send Message</a>
         </div>
     )
 }

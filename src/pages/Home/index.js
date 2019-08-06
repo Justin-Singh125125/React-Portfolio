@@ -1,5 +1,9 @@
 import React from "react";
 
+
+
+
+
 //layouts
 import Grid from "../../layouts/Grid";
 import SectionIntroduction from "../../layouts/Introduction";
@@ -116,6 +120,8 @@ class Home extends React.Component {
         ]
     }
 
+
+
    handlePopup=(projectName)=>{
        if(this.state.openPopup){
 
@@ -183,6 +189,7 @@ class Home extends React.Component {
    }
 
 
+
     render() {
 
 
@@ -245,12 +252,6 @@ class Home extends React.Component {
                     <PortfolioCard handlePopup={()=>this.handlePopup("Article Scraper" )} projectName="Article Scraper" img={Scrape} cardNumber="8"/>
                     <PortfolioCard handlePopup={()=>this.handlePopup("Sequelized Burger")} projectName="Sequelized Burger" img={Burger} cardNumber="9"/>
                 </SectionPortfolio>
-
-                <SectionContact>
-                    <ContactForm/>
-                </SectionContact>
-
-              
 
                 <Popup data={this.state.currentPopupData} openPopup={this.state.openPopup} handlePopup={this.handlePopup}/>
 
