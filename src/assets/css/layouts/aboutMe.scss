@@ -2,7 +2,7 @@
     grid-column: center-start / center-end;
     grid-row: 2 / 3;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1.5fr;
     grid-template-rows: repeat(2, min-content);
     margin-bottom: 20rem;
 

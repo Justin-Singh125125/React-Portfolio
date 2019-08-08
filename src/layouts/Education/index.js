@@ -4,7 +4,7 @@ import Bounce from 'react-reveal/Bounce';
 
 const SectionEducation = props => {
     return (
-        <Bounce left duration={1500}>
+        <Bounce left duration={2500}>
             <div id="experience" className="section-education">
                 <h2 className="section-education__heading">
                     Education

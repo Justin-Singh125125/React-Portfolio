@@ -1,6 +1,6 @@
 import React from "react";
 
-import Slide from 'react-reveal/Slide';
+import Fade from 'react-reveal/Fade';
 
 
 //components
@@ -13,7 +13,7 @@ import Resume from "../../assets/img/Singh, Justin.pdf";
 
 const AboutMe = props => {
     return (
-        <Slide right>
+        <Fade right duration={1500}>
             <div className="about-me">
                 <h2 className="about-me__text">About Me</h2>
                 <p className="about-me__info">
@@ -29,7 +29,7 @@ const AboutMe = props => {
                 </div>
 
             </div>
-        </Slide>
+        </Fade>
     )
 }
 

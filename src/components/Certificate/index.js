@@ -2,13 +2,13 @@ import React from "react";
 
 //components
 
-import Slide from 'react-reveal/Slide';
+import Fade from 'react-reveal/Fade';
 
 
 const Certificate = props => {
     return (
 
-        <Slide left >
+        <Fade left duration={1500} >
             <div className="certificate">
 
                 <img className="certificate__img" src="https://credlyapp.s3.amazonaws.com/badges/aa57dc61c96a888ea204005ab7ef7028.png" alt="Justin Singh's Certificate" />
@@ -21,7 +21,7 @@ const Certificate = props => {
 
 
             </div>
-        </Slide>
+        </Fade>
     )
 }
 

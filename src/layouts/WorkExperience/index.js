@@ -5,7 +5,7 @@ import Bounce from 'react-reveal/Bounce';
 
 const WorkExperience = props => {
     return (
-        <Bounce right duration={1500}>
+        <Bounce right duration={2500}>
             <div className="section-work-experience">
 
                 <h2 className="section-work-experience__heading">
