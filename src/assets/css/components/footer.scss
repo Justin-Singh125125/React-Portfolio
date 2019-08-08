@@ -23,18 +23,6 @@
         font-size: 1.5rem;
         margin-bottom: 1rem;
     }
-
-    &__inspiration{
-        font-size: 1.3rem;
-
-        
-    @media screen and (max-width: $bp-smallest){
-        //do not need a row because implicity grid will cover it
-  
-        display: none;
-   }
-
-    }
     &__link:link,
     &__link:visited{
         text-decoration: none;   
