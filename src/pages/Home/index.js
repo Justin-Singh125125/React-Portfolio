@@ -202,7 +202,9 @@ class Home extends React.Component {
                     <Hero />
                 </SectionIntroduction>
                 <SectionAboutMe>
-                    <Certificate />
+                    <Fade left duration={1500}>
+                        <Certificate />
+                    </Fade>
                     <AboutMe />
                 </SectionAboutMe>
 
