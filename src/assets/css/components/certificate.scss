@@ -28,7 +28,12 @@
     &__sub-heading{
         font-size: 1.4rem;
         width: 50%;
+
+
+    @media screen and (max-width: $bp-medium){
+        width: 100%;
     }
+}
     
     &__name{
         margin-top: 1rem;

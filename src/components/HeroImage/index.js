@@ -3,7 +3,7 @@ import React from "react";
 import Bounce from 'react-reveal/Bounce';
 
 //photos
-import Hero from "../../assets/img/me.png"
+import Hero from "../../assets/img/test.jpeg"
 
 const HeroImage = props => {
     return (
@@ -15,6 +15,7 @@ const HeroImage = props => {
                 </div>
                 <div className="hero__border--1">&nbsp;</div>
                 <div className="hero__border--2">&nbsp;</div>
+
             </Bounce>
 
         </>

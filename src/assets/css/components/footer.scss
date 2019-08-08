@@ -31,7 +31,7 @@
     @media screen and (max-width: $bp-smallest){
         //do not need a row because implicity grid will cover it
   
-        margin-bottom: 2rem;
+        display: none;
    }
 
     }
@@ -44,6 +44,12 @@
     }
     &__text-section{
         margin-right: auto;
+
+        @media screen and (max-width: $bp-smallest){
+            //do not need a row because implicity grid will cover it
+            margin: 3rem 0;
+        
+       }
     }
     &__built-with{
         font-size: 1.5rem;
