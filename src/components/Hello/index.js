@@ -7,6 +7,7 @@ import SvgIcon from "../SvgIcon";
 
 const Hello = props => {
     return (
+
         <div className="hello">
 
             <Fade left duration={1500}>
@@ -35,20 +36,25 @@ const Hello = props => {
                     </h6>
                 </Fade>
             </a>
-            <Fade left duration={1500}>
-                <div className="hello__icons">
+
+            <div className="hello__icons">
+                <Fade left duration={1500}>
                     <div className="hello__icons--1">
                         <a href="https://github.com/Justin-Singh125125" target="_blank">
                             <SvgIcon svgClass="hello__icon hello__github-icon" svgSelection="icon-github" />
                         </a>
                     </div>
-                    <div className="hello__icons--2">
+                </Fade>
+                <div className="hello__icons--2">
+                    <Fade left duration={1500}>
                         <a href="https://www.linkedin.com/in/justin-singh-70a147178" target="_blank">
                             <SvgIcon svgClass="hello__icon hello__linkedin-icon" svgSelection="icon-linkedin" />
                         </a>
-                    </div>
+                    </Fade>
                 </div>
-            </Fade>
+
+            </div>
+
 
         </div >
     )
