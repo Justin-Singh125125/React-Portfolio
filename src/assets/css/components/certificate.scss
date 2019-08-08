@@ -10,9 +10,7 @@
 
     &__link:active,
     &__link:visited{
-        text-decoration: none;
         color: white;
-        outline: none;
     }
 
     &__img{
@@ -39,7 +37,6 @@
         margin-top: 1rem;
         font-size: 1.8rem;
         font-weight: 300;
-        // font-family: $font-secondary;
     }
 
     &__recipient{
@@ -57,6 +54,5 @@
         font-size: 1.8rem;
         font-weight: 400;
         color: #AAA;
-      
     }
 }
