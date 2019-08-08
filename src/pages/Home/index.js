@@ -1,5 +1,5 @@
 import React from "react";
-import Fade from 'react-reveal/Fade';
+
 
 
 
@@ -202,9 +202,7 @@ class Home extends React.Component {
                     <Hero />
                 </SectionIntroduction>
                 <SectionAboutMe>
-                    <Fade left duration={1500}>
-                        <Certificate />
-                    </Fade>
+                    <Certificate />
                     <AboutMe />
                 </SectionAboutMe>
 
