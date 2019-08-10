@@ -1,0 +1,17 @@
+[
+    {
+        "headingText": "Programming Bootcamp Teacher Assistant at UC Davis Continuing and Professional Education",
+        "locationName": "Trilogy",
+        "year": "2019 - Present",
+        "text": "Ensure students reach Full Stack Developer status through an intensive 6-month boot camp course"
+    },
+    {
+        "headingText": "Mapbox Conversion",
+        "locationName": "Freelance",
+        "year": "2019",
+        "text": "Contributed to the conversion of a wordpress site to have JQuery Functionality. Implemented Mapbox API to render locations nearest to the user",
+        "button": true,
+        "buttonText": "View Website",
+        "link": "https://www.ppochildrens.org/locate-a-practice/"
+    }
+]

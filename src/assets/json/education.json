@@ -1,0 +1,23 @@
+[
+    {
+        "headingText": "Computer Science",
+        "locationName": "Sacramento State University, California",
+        "year": "2020 - Present",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aliquid hic voluptatum quam temporibus, ipsa atque nemo et libero, pariatur, quibusdam tenetur quia laboriosam commodi porro corporis excepturi incidunt obcaecati!"
+    },
+    {
+        "headingText": "Full Stack Web Development",
+        "locationName": "University of California, Davis",
+        "year": "2018 - 2019",
+        "text": "An intensive 24-week long boot camp dedicated to designing and building web applications. Skills learned consisted of HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handlebars JS, & React Js. ",
+        "button": true,
+        "buttonText": "View Certificate",
+        "link": "https://ucdavis.credly.com/member-badges/17347457"
+    },
+    {
+        "headingText": "Computer Science",
+        "locationName": "American River College",
+        "year": "2017 - 2019",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aliquid hic voluptatum quam temporibus, ipsa atque nemo et libero, pariatur, quibusdam tenetur quia laboriosam commodi porro corporis excepturi incidunt obcaecati!"
+    }
+]

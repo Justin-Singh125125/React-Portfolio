@@ -30,59 +30,27 @@ import Trivia from "../../assets/img/trivia.jpg";
 import Activ8 from "../../assets/img/activ8.jpg";
 import Burger from "../../assets/img/burgers.jpg";
 
+//json data 
+import EducationData from "../../assets/json/education.json";
+import WorkExperience from "../../assets/json/workExperience.json";
+
 class Home extends React.Component {
 
 
     state = {
+        openNavigation: false,
         //boolean for the pop up
         openPopup: false,
 
         //controls which popup data to insert
         currentPopupData: "",
 
-        //education primary card data
-        educationData: [
-            {
-                headingText: "Computer Science",
-                locationName: "Sacramento State University, California",
-                year: "2020 - Present",
-                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aliquid hic voluptatum quam temporibus, ipsa atque nemo et libero, pariatur, quibusdam tenetur quia laboriosam commodi porro corporis excepturi incidunt obcaecati!"
-            },
-            {
-                headingText: "Full Stack Web Development",
-                locationName: "University of California, Davis",
-                year: "2018 - 2019",
-                text: "An intensive 24-week long boot camp dedicated to designing and building web applications. Skills learned consisted of HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handlebars JS, & React Js. ",
-                button: true,
-                buttonText: "View Certificate",
-                link: "https://ucdavis.credly.com/member-badges/17347457"
-            },
-            {
-                headingText: "Computer Science",
-                locationName: "American River College",
-                year: "2017 - 2019",
-                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aliquid hic voluptatum quam temporibus, ipsa atque nemo et libero, pariatur, quibusdam tenetur quia laboriosam commodi porro corporis excepturi incidunt obcaecati!"
-            },
-        ],
+        //education primary card data from json file
+        educationData: EducationData,
 
-        workExperienceData: [
+        //work experience primary card data from json file
+        workExperienceData: WorkExperience,
 
-            {
-                headingText: "Programming Bootcamp Teacher Assistant at UC Davis Continuing and Professional Education",
-                locationName: "Trilogy",
-                year: "2019 - Present",
-                text: "Ensure students reach Full Stack Developer status through an intensive 6-month boot camp course"
-            },
-            {
-                headingText: "Mapbox Conversion",
-                locationName: "Freelance",
-                year: "2019",
-                text: "Contributed to the conversion of a wordpress site to have JQuery Functionality. Implemented Mapbox API to render locations nearest to the user",
-                button: true,
-                buttonText: "View Website",
-                link: "https://www.ppochildrens.org/locate-a-practice/"
-            },
-        ],
         //pop up data to put in when clicked
         portfolioArray: [
             {
@@ -276,6 +244,20 @@ class Home extends React.Component {
         }
     }
 
+    //opens navigation menu
+    handleNavigation = () => {
+        if (this.state.openNavigation === false) {
+            this.setState({
+                openNavigation: true
+            })
+        }
+        else {
+            this.setState({
+                openNavigation: false
+            })
+        }
+    }
+
 
 
     render() {
@@ -283,7 +265,10 @@ class Home extends React.Component {
 
         return (
             <Grid>
-                <Navigation />
+                <Navigation
+                    openNavigation={this.state.openNavigation}
+                    handleNavigation={this.handleNavigation}
+                />
 
                 <SectionIntroduction>
                     <Hello />
