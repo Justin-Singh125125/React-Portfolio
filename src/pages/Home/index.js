@@ -52,7 +52,7 @@ class Home extends React.Component {
         workExperienceData: WorkExperience,
 
         //pop up data to put in when clicked
-        portfolioArray: [
+        popupData: [
             {
                 projectName: "Natours",
                 text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ullam quo asperiores nesciunt quidem possimus a tempora animi consequuntur doloremque expedita deserunt consectetur, quasi nulla praesentium odio natus reprehenderit nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolorem repudiandae doloremque vitae? Placeat reiciendis fugiat numquam doloribus dolores aliquam voluptatem explicabo veniam minus saepe exercitationem ipsum earum, officiis aspernatur?",
@@ -189,55 +189,55 @@ class Home extends React.Component {
             if (projectName === "Natours") {
                 this.setState({
                     openPopup: true,
-                    currentPopupData: this.state.portfolioArray[0]
+                    currentPopupData: this.state.popupData[0]
                 })
             }
             if (projectName === "Meme Battles") {
                 this.setState({
                     openPopup: true,
-                    currentPopupData: this.state.portfolioArray[1]
+                    currentPopupData: this.state.popupData[1]
                 })
             }
             if (projectName === "Bored and Free") {
                 this.setState({
                     openPopup: true,
-                    currentPopupData: this.state.portfolioArray[2]
+                    currentPopupData: this.state.popupData[2]
                 })
             }
             if (projectName === "Trillo") {
                 this.setState({
                     openPopup: true,
-                    currentPopupData: this.state.portfolioArray[3]
+                    currentPopupData: this.state.popupData[3]
                 })
             }
             if (projectName === "Trivia Game") {
                 this.setState({
                     openPopup: true,
-                    currentPopupData: this.state.portfolioArray[4]
+                    currentPopupData: this.state.popupData[4]
                 })
             }
             if (projectName === "Nexter") {
                 this.setState({
                     openPopup: true,
-                    currentPopupData: this.state.portfolioArray[5]
+                    currentPopupData: this.state.popupData[5]
                 })
             }
             if (projectName === "Activ8") {
                 this.setState({
                     openPopup: true,
-                    currentPopupData: this.state.portfolioArray[6]
+                    currentPopupData: this.state.popupData[6]
                 })
             }
             if (projectName === "Article Scraper") {
                 this.setState({
                     openPopup: true,
-                    currentPopupData: this.state.portfolioArray[7]
+                    currentPopupData: this.state.popupData[7]
                 })
             }
             if (projectName === "Sequelized Burger") {
                 this.setState({
                     openPopup: true,
-                    currentPopupData: this.state.portfolioArray[8]
+                    currentPopupData: this.state.popupData[8]
                 })
             }
 
@@ -309,7 +309,6 @@ class Home extends React.Component {
                 </SectionWorkExperience>
 
                 <SectionPortfolio>
-                    {/* <PortfolioCard handlePopup={() => this.handlePopup("Natours")} projectName="Natours" img={Natours} cardNumber="1" /> */}
                     {this.state.portfolioCardData.map((data => (
                         <PortfolioCard
                             handlePopup={data.handlePopup}
