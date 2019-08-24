@@ -107,19 +107,22 @@
         margin-left: 3rem;
 
 
-        &--1{
+        &--1,
+        &--2{
             margin-right: 3rem;
         }
 
         &--1,
-        &--2{
+        &--2,
+        &--3{
             padding: 1rem;
             transition: all .3s;
             border-radius: .4rem;
         }
 
         &--1:hover,
-        &--2:hover{
+        &--2:hover,
+        &--3:hover{
             background-color: black;
             fill: $color-primary;
           

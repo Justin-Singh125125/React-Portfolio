@@ -38,19 +38,32 @@ const Hello = props => {
             </a>
 
             <div className="hello__icons">
-                <Fade left duration={1500}>
-                    <div className="hello__icons--1">
-                        <a href="https://github.com/Justin-Singh125125" target="_blank">
+
+                <div className="hello__icons--1">
+                    <a href="https://github.com/Justin-Singh125125" target="_blank">
+                        <Fade left duration={1500}>
                             <SvgIcon svgClass="hello__icon hello__github-icon" svgSelection="icon-github" />
-                        </a>
-                    </div>
-                </Fade>
+                        </Fade>
+                    </a>
+                </div>
+
                 <div className="hello__icons--2">
-                    <Fade left duration={1500}>
-                        <a href="https://www.linkedin.com/in/justin-singh-70a147178" target="_blank">
+
+                    <a href="https://www.linkedin.com/in/justin-singh-70a147178" target="_blank">
+                        <Fade left duration={1500}>
                             <SvgIcon svgClass="hello__icon hello__linkedin-icon" svgSelection="icon-linkedin" />
-                        </a>
-                    </Fade>
+                        </Fade>
+                    </a>
+
+                </div>
+                <div className="hello__icons--3">
+
+                    <a href="https://sourcerer.io/justin-singh125125" target="_blank">
+                        <Fade left duration={1500}>
+                            <SvgIcon svgClass="hello__icon hello__linkedin-icon" svgSelection="icon-power" />
+                        </Fade>
+                    </a>
+
                 </div>
 
             </div>
