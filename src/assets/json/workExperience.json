@@ -1,13 +1,13 @@
 [
     {
         "headingText": "Programming Bootcamp Teacher Assistant",
-        "locationName": "UC Davis Continuing and Professional Education",
+        "locationName": "University of California, Davis",
         "year": "2019 - Present",
-        "text": "Ensure students reach Full Stack Developer status through an intensive 6-month boot camp course covering an abundant amount of technolgies."
+        "text": "Ensure students reach Full Stack Developer status through an intensive 6-month bootcamp course."
     },
     {
         "headingText": "Wordpress Conversion",
-        "locationName": "Pediatric Physicians' Organization at Children's",
+        "locationName": "Massachusetts",
         "year": "2019",
         "text": "Improved the efficiency of a WordPress site by 50% after implementing JQuery functionality and Mapbox.",
         "button": true,
