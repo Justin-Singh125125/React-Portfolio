@@ -6,10 +6,10 @@
         "text": "Ensure students reach Full Stack Developer status through an intensive 6-month boot camp course covering an abundant amount of technolgies."
     },
     {
-        "headingText": "Mapbox Conversion",
+        "headingText": "Wordpress Conversion",
         "locationName": "Pediatric Physicians' Organization at Children's",
         "year": "2019",
-        "text": "Contributed to the conversion of a wordpress site to have JQuery Functionality. Implemented Mapbox API to render locations nearest to the user.",
+        "text": "Improved the efficiency of a WordPress site by 50% after implementing JQuery functionality and Mapbox.",
         "button": true,
         "buttonText": "View Website",
         "link": "https://www.ppochildrens.org/locate-a-practice/"
