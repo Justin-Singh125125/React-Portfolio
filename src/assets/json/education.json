@@ -2,13 +2,13 @@
     {
         "headingText": "Computer Science",
         "locationName": "Sacramento State University, California",
-        "year": "2020 - Present",
+        "year": "January 2020 - Present",
         "text": "I am continuing my passion for programming after transfering from community college to a University. At Sacramento State University, California I will complete my bachelors degree."
     },
     {
         "headingText": "Full Stack Web Development",
         "locationName": "University of California, Davis",
-        "year": "2018 - 2019",
+        "year": "August 2018 - March 2019",
         "text": "An intensive 24-week long boot camp dedicated to designing and building web applications. Skills learned consisted of HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handlebars JS, & React Js. ",
         "button": true,
         "buttonText": "View Certificate",
@@ -17,7 +17,7 @@
     {
         "headingText": "Computer Science",
         "locationName": "American River College",
-        "year": "2017 - 2019",
-        "text": "I found my passion for programming in 2017 at community college. At American River College I have completed all lower division courses for C++ programming."
+        "year": "August 2017 - December 2019",
+        "text": "Associate's Degree Computer Science"
     }
 ]
