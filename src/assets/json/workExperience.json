@@ -1,23 +1,29 @@
 [
-    {
-        "headingText": "Software Engineer",
-        "locationName": "California Enviornmental Protection Agency",
-        "year": "October 2019 - Present",
-        "text": "Maintain ASP.net and C# codebase."
-    },
-    {
-        "headingText": "Programming Bootcamp Teacher Assistant",
-        "locationName": "Triology Education",
-        "year": "March 2019 - Present",
-        "text": "Ensure students reach Full Stack Developer status through an intensive 6-month bootcamp course."
-    },
-    {
-        "headingText": "Wordpress Conversion",
-        "locationName": "Freelance",
-        "year": "June 2019 - July 2019",
-        "text": "Improved the efficiency of a WordPress site by 50% after implementing JQuery functionality and Mapbox.",
-        "button": true,
-        "buttonText": "View Website",
-        "link": "https://www.ppochildrens.org/locate-a-practice/"
-    }
+  {
+    "headingText": "Co-Founder/President",
+    "locationName": "yWaldo",
+    "year": "January 2020 - Present",
+    "text": "Full Stack Developer, currently utilizing the beauty of React Native to build an application that generates profit in a new interesting way."
+  },
+  {
+    "headingText": "Software Engineer",
+    "locationName": "California Enviornmental Protection Agency",
+    "year": "October 2019 - Present",
+    "text": "Maintain ASP.net and C# codebase."
+  },
+  {
+    "headingText": "Programming Bootcamp Teacher Assistant",
+    "locationName": "Triology Education",
+    "year": "March 2019 - Present",
+    "text": "Ensure students reach Full Stack Developer status through an intensive 6-month bootcamp course."
+  },
+  {
+    "headingText": "Wordpress Conversion",
+    "locationName": "Freelance",
+    "year": "June 2019 - July 2019",
+    "text": "Improved the efficiency of a WordPress site by 50% after implementing JQuery functionality and Mapbox.",
+    "button": true,
+    "buttonText": "View Website",
+    "link": "https://www.ppochildrens.org/locate-a-practice/"
+  }
 ]
