@@ -1,5 +1,11 @@
 [
   {
+    "headingText": "Lead Frontend Developer",
+    "locationName": "RCG Logistics",
+    "year": "March 2020 - Present",
+    "text": "Developing products that allow customers and employees to manage/create orders."
+  },
+  {
     "headingText": "Co-Founder/President",
     "locationName": "yWaldo",
     "year": "January 2020 - Present",
@@ -8,22 +14,13 @@
   {
     "headingText": "Software Engineer",
     "locationName": "California Enviornmental Protection Agency",
-    "year": "October 2019 - Present",
-    "text": "Maintain ASP.net and C# codebase."
+    "year": "October 2019 - May 2020",
+    "text": "Contributing to the growth of an environmental complaint system that helped reduce rates of pollution globally."
   },
   {
     "headingText": "Programming Bootcamp Teacher Assistant",
     "locationName": "Triology Education",
     "year": "March 2019 - Present",
-    "text": "Ensure students reach Full Stack Developer status through an intensive 6-month bootcamp course."
-  },
-  {
-    "headingText": "Wordpress Conversion",
-    "locationName": "Freelance",
-    "year": "June 2019 - July 2019",
-    "text": "Improved the efficiency of a WordPress site by 50% after implementing JQuery functionality and Mapbox.",
-    "button": true,
-    "buttonText": "View Website",
-    "link": "https://www.ppochildrens.org/locate-a-practice/"
+    "text": "Assisted with debugging the frontend and backend of students’ applications. "
   }
 ]
